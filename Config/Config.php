@@ -1,5 +1,5 @@
 <?php
-const base_url = "http://localhost/biblio/";
+define('base_url',getenv('BASE_URL'));
 const host = "localhost";
 const user = "root";
 const pass = "";
