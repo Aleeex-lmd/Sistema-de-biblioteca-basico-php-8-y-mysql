@@ -1,8 +1,8 @@
 <?php
 define('base_url',getenv('BASE_URL'));
-const host = "localhost";
-const user = "root";
-const pass = "";
-const db = "biblioteca";
+define('host',getenv('DB_HOST'));
+define('user',getenv('DB_USER'));
+define('pass',getenv('DB_PASS'));
+define('db',getenv('DB'));
 const charset = "charset=utf8";
 ?>
